@@ -74,7 +74,7 @@ header .icon {
 
 .featured_projects img {
   width: 320px;
-  height: 240px;
+  height: auto;
 }
 
 /*Sizing and proportions*/
@@ -84,12 +84,12 @@ header .icon {
 }
 
 .icon img {
-  height: 80px;
+  height: auto;
   width: 80px;
 }
 
 header {
-  height: 100px;
+  height: auto;
 }
 
 
