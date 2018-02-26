@@ -1,0 +1,122 @@
+
+/*Universal applications*/
+body {
+  margin: 2% 20% 2% 20%;
+}
+
+img, .headliner, .featured_projects, .icon{
+  max-width: 100%;
+}
+
+/*Font modifiers: color, style, etc. */
+.featured h2 {
+  color: #7d97ad;
+}
+
+.individual_project {
+  text-align: center;
+  font-family: Arial;
+  color: #2d3c49;
+}
+
+.content {
+  font-family: Arial;
+}
+
+.content h1 {
+  font-size: 48px;
+  margin: auto;
+}
+
+/*Design and Positioning Aspects*/
+.line_seperate {
+  background-color: #7d97ad;
+  height: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.headliner, .featured_projects, .icon {
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 100%;
+  margin: auto;
+}
+
+.headliner img {
+  width: 100%;
+  height: 100%;
+  margin: inherit;
+}
+
+.featured_projects {
+  margin: auto;
+  justify-content: space-between;
+}
+
+.line_seperate {
+  clear: both;
+}
+
+header .content {
+  display: inline-block;;
+  float: right;
+  height: 100%;
+}
+
+header .icon {
+  display: inline-block;;
+  float: left;
+  position: relative;
+  margin: auto;
+  vertical-align: middle;
+}
+
+.featured_projects img {
+  width: 320px;
+  height: 240px;
+}
+
+/*Sizing and proportions*/
+
+.content h3 {
+  float: inherit;
+}
+
+.icon img {
+  height: 80px;
+  width: 80px;
+}
+
+header {
+  height: 100px;
+}
+
+
+/*Media Queries*/
+/*For tablets*/
+@media screen and (max-width: 768px) {
+  .featured {
+    text-align: center;
+  }
+  .featured_projects {
+    justify-content: center;
+  }
+}
+
+/*For mobile devices*/
+@media screen and (max-width: 360px) {
+  .icon img {
+    height: 40px;
+    width: 40px;
+  }
+  .content h3 {
+    font-size: medium;
+  }
+  .content h1 {
+    font-size: x-large;
+  }
+  header {
+    height: 60px;
+  }
+}
